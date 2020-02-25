@@ -1,0 +1,48 @@
+/*
+Theme Name: astra-child-theme 
+Theme URI: www.ndws.dk 
+Description: astra-child-theme
+Author:Nathalie
+Author URI: www.ndws.dk
+Template: astra
+Version: 1.0.2 
+License: GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready (feature list)
+ Text Domain: astra-child-theme
+*/
+@font-face {
+  font-family:canterbury;
+  src: url(http://ndws.dk/wp-content/themes/astra-child-theme/canterbury.ttf);
+  font-weight:normal;
+}
+.main-header-bar {
+ background: transparent;!important
+
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    
+    font-family: canterbury;
+    color: #dcd6c9;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 150px;
+    margin-left: -200px;!important
+   
+}
+
+.entry-content h2 {
+    font-size: 20px;!important
+    font-size: 1.5625rem;
+    font-weight: 400px;
+    font-family: 'DM Serif Display',serif;
+    line-height: 1px;
+    text-transform: capitalize;
+    margin-bottom: 11px;
+    
+}
+
+.entry-content p {
+    margin-bottom: 25px;
+}
+
